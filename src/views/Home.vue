@@ -1,7 +1,10 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <div>
+      <a-button type="primary">Primary</a-button>
+      <a-button type="dashed">Dashed</a-button>
+      <a-button type="danger">Danger</a-button>
+    </div>
   </div>
 </template>
 

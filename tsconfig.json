@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
+    "strict": false,
+    "noImplicitThis": false,  // 是否在表达式和声明上有隐含的any类型时报错
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
